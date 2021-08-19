@@ -1,0 +1,97 @@
+.header{
+
+    padding:20px;
+    height:100vh;
+    background: url("MS-Dhoni.jpg") no-repeat center;
+    background-size:cover;
+    position:relative;
+
+}
+ul{
+
+    display:flex;
+    align-content:center;
+    justify-content: center ;
+
+}
+
+ul li{
+
+    list-style: none ;
+    
+}
+
+ul li a{
+    
+    text-transform: uppercase;
+    font-weight:bold;
+    color: #fff;
+    font-size: 0.8em;
+    text-decoration:none;
+    padding:1em;
+    letter-spacing:1px;
+
+}
+ul li a:hover{
+
+    border-bottom: 3px solid  #fff;
+    }
+    
+    .header h1{
+        margin:0;
+        font-weight:900;
+        font-size:3rem;
+        text-align:center;
+        color:#fff;
+        margin-bottom: 20px;
+    }
+
+    .content{
+        position:relative;
+        top:50%;
+        text-align:center;}
+
+
+    .flex1{
+        display:flex;
+        color:#fff;
+        padding:100px 150px 150px 100px ;
+        position:center;
+        background: linear-gradient(90deg, rgba(2,0,36,1) 32%, rgba(9,9,121,1) 67%, rgba(0,129,155,1) 100%);
+    }
+    .flex1 h1{
+        font-size:300%;
+        text-align: center;
+    }
+    .flex1 p{
+        font-weight:400;
+        font-size:150%;
+        text-align:center;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+
+    .flex2{
+
+        display:flex;
+        color:#fff;
+        padding:100px 150px 150px 100px ;
+        position:center;
+        background: linear-gradient(to bottom ,#0f2027, #203a43, #2c5364 );
+    
+    }
+    .flex2 h1{
+        font-size:300%;
+        text-align: center;
+    }
+    .flex2 p{
+        font-weight:400;
+        font-size:150%;
+        text-align:center;
+        padding-left: 3%;
+        padding-right: 3%;}
+    
+        
+
+
+    
